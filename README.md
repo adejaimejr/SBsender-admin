@@ -1,18 +1,18 @@
-# WhatsApp Message Management System
+# Sistema de Gerenciamento de Mensagens WhatsApp
 
-A modern administrative panel for managing WhatsApp messages, built with Next.js, TypeScript, and Tailwind CSS.
+Painel administrativo moderno para gerenciamento de mensagens WhatsApp, construído com Next.js, TypeScript e Tailwind CSS.
 
-## Features
+## Funcionalidades
 
-- Modern and responsive admin dashboard
-- Dark/Light mode support
-- Client management
-- Contact management with CSV import
-- Campaign management with webhook integration
-- Secure authentication system
-- Message sending and tracking
+- Painel administrativo moderno e responsivo
+- Suporte a modo escuro/claro
+- Gerenciamento de clientes
+- Gerenciamento de contatos com importação CSV
+- Gerenciamento de campanhas com integração webhook
+- Sistema de autenticação seguro
+- Envio e rastreamento de mensagens
 
-## Tech Stack
+## Stack Tecnológica
 
 - Next.js
 - TypeScript
@@ -20,32 +20,32 @@ A modern administrative panel for managing WhatsApp messages, built with Next.js
 - shadcn/ui
 - Lucide React Icons
 
-## Getting Started
+## Como Começar
 
-1. Clone the repository
-2. Install dependencies:
+1. Clone o repositório
+2. Instale as dependências:
    ```bash
    npm install
    ```
-3. Run the development server:
+3. Execute o servidor de desenvolvimento:
    ```bash
    npm run dev
    ```
 
-## Environment Variables
+## Variáveis de Ambiente
 
-Create a `.env` file in the root directory with the following variables:
+Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
 ```env
-DATABASE_URL=your_database_url
-NEXTAUTH_SECRET=your_auth_secret
+DATABASE_URL=sua_url_do_banco
+NEXTAUTH_SECRET=seu_segredo_auth
 NEXTAUTH_URL=http://localhost:3000
 ```
 
-## Contributing
+## Contribuindo
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+1. Faça um fork do repositório
+2. Crie sua branch de feature
+3. Faça commit das suas alterações
+4. Faça push para a branch
+5. Crie um novo Pull Request
